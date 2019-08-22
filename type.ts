@@ -1,7 +1,6 @@
-function area (shape: string, width: number, height: number){
-    var area= width + height;
+function area(shape, width, height) {
+    var area = width + height;
     return "I'm a " + shape + " With an area of " + area + " cm squared.";
 }
+document.body.innerHTML = area("reangle", 30, 15);
 
-    document.body.innerHTML = area("rectangle", 30, 15);
-    
