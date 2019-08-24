@@ -11,8 +11,16 @@ let bb: string[] = ["a", "apricot", "mango"];
 
 
 let dd: Array<number> = [null, undefined, 10, 15]; 
- let ee: Array<string> = ["pie", null, ""]; 
+let ee: Array<string> = ["pie", null, ""]; 
+
+let one: [number,string] = [11,"monday"];
+//let two:[number,string] =["monday",11];
+//let three:[number,string]=["a","monkey"];
+let four:[number,string]=[105,"owl"];
+let five:[number, string]= [13,"bat"];
+ee[13]="elephant";
+//ee[15]=false;
 
  console.log(a[1]);
  console.log(b[2]);
- 
+ console.log(four[1],[2]);
