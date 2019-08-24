@@ -5,5 +5,9 @@ var tank = {
     damage: 12
 };
 tank.health = 95;
-//tank.damage=10;
+var tankHit = function (tankName, damageDone) {
+    tankName.health -= damageDone;
+    return tankName.health;
+};
 console.log(tank.damage, tank.health);
+console.log(tankHit);
