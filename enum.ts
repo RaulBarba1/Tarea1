@@ -1,4 +1,4 @@
-enum animals {cat, lion, dog, cow, monkey}
+enum animals {cat=1, lion, dog=11, cow, monkey}
 let c: animals = animals.cat;
 
 console.log(animals[3]);
