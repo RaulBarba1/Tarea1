@@ -15,3 +15,4 @@ let firstlake: lakes ={
     countries: ['mexico','treintayochon']
 
 }
+console.log(firstlake.name);

@@ -6,4 +6,4 @@ var firstlake = {
     isFreshwater: false,
     countries: ['mexico', 'treintayochon']
 };
-console.log(firstlake, name);
+console.log(firstlake.name);
