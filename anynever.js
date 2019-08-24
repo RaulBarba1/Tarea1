@@ -1,4 +1,8 @@
-var a = "apple";
-var b = 14;
-var cc = false;
-console.log(a);
+var a;
+var b = false;
+var c = null;
+var d = "monday";
+function stuck() {
+    while (true) {
+    }
+}
