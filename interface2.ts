@@ -5,6 +5,8 @@ length: number,
 depth: number,
 isFreshwater: boolean,
 countries: string[]
+frozen?: string[]
+[extraProp: string]: any
 }
 let firstlake: lakes ={
     name: 'canalon',
@@ -13,6 +15,38 @@ let firstlake: lakes ={
     area: 12341,
     isFreshwater: false,
     countries: ['mexico','treintayochon']
-
 }
+
+let secondlake: lakes={
+    name: 'maviron',
+    length: 5325,
+    depth:4344,
+    area: 3241,
+    isFreshwater: true,
+    countries: ['ahome']
+}
+
+let thirdlake: lakes={
+    name: 'estero',
+    length: 443,
+    depth:22,
+    area: 5234,
+    isFreshwater: true,
+    countries: ['ahome'],
+    frozen: ['enero']
+}
+
+let fourthlake: lakes={
+    name: 'otro',
+    length: 43343,
+    depth:2212,
+    area: 522334,
+    isFreshwater: true,
+    countries: ['choix'],
+    frozen: ['febrero'],
+    kigoma:'Tanzania'
+}
+console.log(secondlake.name, secondlake.countries);
 console.log(firstlake.name);
+console.log(thirdlake.name);
+console.log(fourthlake.kigoma);
