@@ -1,10 +1,19 @@
-function randomElem(theArray: any[]): any {   
-let randomIndex = Math.floor(Math.random()*theArray.length);    
-return theArray[randomIndex]; 
+interface People {  
+name: string 
 }
- 
-let positions = [103, 458, 472, 458]; 
-let randomPosition = randomElem(positions);
- 
-let colors = ['violet', 'indigo', 'blue', 'green']; 
-let randomColor = randomElem(colors);
+interface Family {    
+name: string,    
+age: number,    
+relation: string 
+}
+interface Celebrity extends People {    
+profession: string 
+}
+function printName<T extends People>(theInput: T): void {    
+console.log(`My name is ${theInput.name}`); 
+}
+let serena: Celebrity = {    
+    name: 'Serena Williams',    
+    profession: 'Tennis Player'
+ } 
+printName(serena);
