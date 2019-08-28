@@ -14,7 +14,7 @@ interface People {
     }
     let serena: Celebrity = {    
         name: 'Serena Williams',    
-        profession: 'Tennis Player'
+        profession: 'Tennis 
      } 
     printName(serena);
     
